@@ -40,6 +40,7 @@ section {
   display: flex;
   align-items: center;
 }
+
 .header-content {
   display: flex;
   align-items: center;
@@ -224,11 +225,6 @@ i.fa-th-list {
 }
 
 .product-data {
-  text-align: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .grid .product-image-wrapper {
@@ -237,6 +233,11 @@ i.fa-th-list {
 
 .grid .product-data {
   height: 100%;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .grid .product-info {
@@ -255,47 +256,92 @@ i.fa-th-list {
 /* LINE VIEW STYLES */
 
 .lines.products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .lines .product {
+  display: flex;
+  height: 200px;
   padding: 20px;
+  justify-content: space-between;
+  text-align: center;
+  overflow: hidden;
 }
 
 .lines .product-image-wrapper {
   min-width: 300px;
-  height: 200px;
+  height: 100%;
+  background-size: cover;
+}
+
+.product-image-wrapper img {
 }
 
 .lines .product-data {
+  text-align: left;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
 }
 
 .lines .product-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-around;
 }
 
 .lines .product-action {
+  display: flex;
+  gap: 30px;
 }
 
 /* LINES-ACTION VIEW */
 
 .lines-action.products {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .lines-action .product {
+  display: flex;
 }
 
 .lines-action .product-image-wrapper {
+  padding: 20px;
   min-width: 300px;
   height: 200px;
 }
 
 .lines-action .product-data {
+  padding: 20px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .lines-action .product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  align-self: center;
 }
 
 .lines-action .product-action {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
   border-left: 1px solid #8d8ba5;
-  padding-left: 30px;
   min-width: 200px;
 }
