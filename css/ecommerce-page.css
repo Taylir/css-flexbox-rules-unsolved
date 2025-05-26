@@ -224,9 +224,6 @@ i.fa-th-list {
   padding-bottom: 30px;
 }
 
-.product-data {
-}
-
 .grid .product-image-wrapper {
   height: 200px;
 }
@@ -269,15 +266,12 @@ i.fa-th-list {
   height: 200px;
   padding: 20px;
   justify-content: space-between;
-} 
+}
 
 .lines .product-image-wrapper {
   min-width: 300px;
   height: 100%;
   background-size: cover;
-}
-
-.product-image-wrapper img {
 }
 
 .lines .product-data {
